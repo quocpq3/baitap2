@@ -1,0 +1,287 @@
+*{
+    font-family: inherit;
+    visibility: inherit;
+}
+body{
+    background-color: #756e6f;
+}
+/* footer */
+a{
+ color: #141212;
+}
+table {
+    font-size: 1.2rem;
+    width: 100%;
+    border-collapse: collapse;  
+}
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+.imgicon{
+    padding: 0px 8px;
+    height: 30px;
+    width: 30px;
+}
+
+/* menu */
+menu{
+    background-color:#141212;
+    margin: -8px;
+}
+.container_menu{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btnmenu{
+    text-transform: uppercase;
+    color: white;
+    width: 10%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.btnmenu:hover{
+    background-color: #dc3545
+}
+/* thông tin  */
+.myname{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+/* sản phẩm bán chạy nhất */
+.imgbc{
+    margin: 10px 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 5px 10px rgb(104, 104, 114);
+}
+.container_sanphanbanchay{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 400px;
+    /* border-radius: 50%; */
+    background-image: url(./San_go_go_do.png);
+}
+.sanphambanchay{
+    margin-top: 40px;
+    text-align: center;
+    height: 320px;
+    width: 220px;
+    background-color: rgb(180, 172, 172);
+    box-shadow: 5px 5px 10px rgb(152, 144, 152);
+}
+/* giá */
+.price{
+    color:#dc3545;
+    font-size: 1.2rem;
+}
+/* sản phẩm mới */
+.imgspm{
+    margin: 10px 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 5px 10px rgb(104, 104, 114);
+}
+.container_sanphamoi{
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 400px;
+    /* border-radius: 50%; */
+    background-image: url(./San_go_oc_cho_cao_cap_xuat_nhat.png);
+}
+.sanphamoi{
+    margin-top: 40px;
+    text-align: center;
+    height: 320px;
+    width: 220px;
+    background-color: rgb(180, 172, 172);
+    box-shadow: 5px 5px 10px rgb(152, 144, 152);
+}
+/* product.html */
+ul{
+    display: flex;
+    list-style: none;
+    margin-left: 10%;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 400px;
+}
+.imgsp{
+    margin: 10px 10px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 0px 5px 10px rgb(104, 104, 114);
+}
+.product_item{
+    margin-right: 40px;
+    margin-top: 40px;
+    text-align: center;
+    height: 320px;
+    width: 220px;
+    background-color: rgb(180, 172, 172);
+    box-shadow: 5px 5px 10px rgb(152, 144, 152);
+}
+/* Login-form */
+
+/* .body-login{
+    font-family: 'montserrat', sans-serif;
+    background-image: url(./wood-floor-texture-textured-background-of-light-flooring_9904273.jpg!bw700);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+} */
+ .img-login{
+    margin-top: 10px;
+    margin-left: 25%;
+    position: relative;
+    width: 50%;
+ }
+.login-box{
+    font-family: 'montserrat', sans-serif;
+    max-width: 250px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.glass-container {
+    margin: 0 auto;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.glass-container::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+input {
+    padding: 10px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 13px;
+}input::placeholder {
+    color: #fff;
+}
+input:focus {
+    outline: none;
+}
+.options {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: white;
+}
+.options a{
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+}
+button {
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: transparent;
+    color: white;
+    outline: 1px solid #fff;
+}
+.p {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px;
+} 
+/* register */
+.container_register{
+    margin: 0 auto;
+    width: 400px;
+    height: 680px;
+    position: relative;
+    z-index: 1;
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 4px 6px rgba(0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+.register-box{
+    font-family: 'montserrat', sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+.container_register::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    z-index: -1;
+}
+.sumbit_rg{
+    background: #fff;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+.sumbit_rg:hover{
+    background: transparent;
+    color: white;
+    outline: 1px solid #fff;
+}
+label {
+    display: block; /* Hiển thị label trên dòng riêng */
+    text-align: left; /* Căn trái label */
+    margin-top: 5px; /* Khoảng cách giữa label và input */
+  }
+  .aa{
+  }
